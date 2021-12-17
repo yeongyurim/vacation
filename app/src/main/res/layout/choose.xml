@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TVworldcub"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:text="여행지 월드컵 32강"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/IBup"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/IBdown"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
